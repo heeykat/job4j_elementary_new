@@ -5,7 +5,6 @@ public class Fit {
     private static final int BASE_HEIGHT_WOMAN = 110;
     private static final double WEIGHT_FACTOR = 1.15;
 
-    // Общий метод для расчета идеального веса
     public static double calculateIdealWeight(short height, int baseHeight) {
         return (height - baseHeight) * WEIGHT_FACTOR;
     }
